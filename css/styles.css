@@ -107,21 +107,6 @@ p {
   gap: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .header-list-text{
   text-decoration: none;
   font-weight: 500;
@@ -134,7 +119,6 @@ p {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-
 
 
 .header-list-text::after{
@@ -305,15 +289,16 @@ p {
 
 /* SECTION2 */
 
-.description-main {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.description-main{
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .features-description {
   display: flex;
-  gap: 24px;
-  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 72px;
+  align-items: center;
 }
 
 .main-cards {
@@ -326,6 +311,7 @@ p {
   line-height: 1.2;
   color: var(--dark);
   margin-top: 8px;
+  text-align: center;
 }
 
 .main-description-text {
@@ -336,9 +322,6 @@ p {
 }
 
 /* what are we doing */
-.doing-box {
-  padding-bottom: 120px;
-}
 
 .our-team-list {
   background-color: var(--background);
@@ -347,25 +330,15 @@ p {
     0px 1px 6px 0px #2e2f4214;
 }
 
-.section-three-title {
-  font-size: 36px;
-  line-height: 1.1;
-  font-weight: 700;
-  color: var(--dark);
-  text-align: center;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
 
-.section-three-items {
-  display: flex;
-  gap: 24px;
-}
+
+
 
 .our-team-box {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 128px;
   background-color: var(--our-team-back);
+  text-align: center;
 }
 .our-team-box .our-team-title {
   font-weight: 700;
@@ -382,7 +355,9 @@ p {
 
 .our-team-items {
   display: flex;
-  gap: 24px;
+  flex-direction: column;
+  gap: 72px;
+  align-items: center;
 }
 
 .our-team-items .main-description-title {
@@ -582,9 +557,14 @@ color: var(--background);
 }
 
 .custumer-list {
-  display: flex;
-  gap: 24px;
-  margin-top: 72px;
+  
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 428px;
+    justify-content: center;
+    margin-top: 72px;
+    gap: 72px 16px;
+
 }
 
 .custumer-link {
@@ -612,8 +592,9 @@ color: var(--background);
 }
 
 .custumer-section{
-  padding-bottom: 105px;
-  padding-top: 130px;
+  text-align: center;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .footer-social-title{
@@ -938,7 +919,7 @@ resize: none;
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  
 }
 
 /* NAO INTERESSA */
@@ -960,9 +941,9 @@ section {
 }
 
 .container {
-  max-width: 1158px;
-  padding-left: 15px;
-  padding-right: 15px;
+  max-width: 428px;
+  padding-left: 16px;
+  padding-right: 16px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1015,3 +996,7 @@ section {
   height: 64px;
   
 }
+
+
+
+
