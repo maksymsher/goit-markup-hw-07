@@ -20,5 +20,14 @@
     display: flex;
     gap: 24px;
   }
-    
+  .svg-components-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 264px;
+    height: 112px;
+    background-color: var(--btn-portfolio-back-primary);
+    border-radius: 4px;
+  }
+ 
   }

@@ -1,8 +1,81 @@
-@media screen and (min-width: 480px){
+@media screen and (max-width: 767px){
+
+
+    @media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
+    screen and (min-resolution: 192dpi) and (max-width:767px),
+    screen and (min-resolution: 2dppx) and (max-width:767px) {
+    .section-one {
+      background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/index/peopleoffice.jpg);;
+    }
+  } 
     .container {
         max-width: 428px;
         margin-left: auto;
         margin-right: auto;
     }
 
-    }
+    .our-team-box {
+            background: var(--btn-portfolio-back-primary);
+            padding-bottom: 128px;
+            padding-top: 96px;
+            text-align: center;
+        }
+             
+    .footer-container {
+            display: flex;
+            flex-direction: column;
+            gap: 72px;
+            align-items: center;
+            text-align: center;
+            align-content: center;
+        }
+        .header-container{
+            display: flex;
+        align-items: center;
+        justify-content: space-between;
+             }
+
+
+    .input-footer-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    text-align: center;}
+
+
+    .menu-open{
+        background-color: transparent;
+    line-height: 0;
+    padding: 0;
+    border: none;
+    outline: 1px solid red;
+      }
+      
+    .svg-menu{
+        stroke: #2E2F42;
+  border: none;
+
+      }
+      
+    .section-one-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        letter-spacing: 0.02em;
+        color: var(--background);
+        text-align: center;
+        width: 290px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+
+}
+
+    
+    
+
+    
