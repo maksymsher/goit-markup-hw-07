@@ -29,5 +29,18 @@
     background-color: var(--btn-portfolio-back-primary);
     border-radius: 4px;
   }
- 
+ .features-description{
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+ }
+ .our-team-items{
+  flex-direction: row;
+  flex-wrap: wrap;
+ }
+ .custumer-list {
+  display: flex;
+  gap: 24px;
+  margin-top: 72px;
+}
   }

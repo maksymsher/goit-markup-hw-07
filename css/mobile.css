@@ -13,7 +13,31 @@
         margin-left: auto;
         margin-right: auto;
     }
-
+    .features-description {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+      }
+      .our-team-items {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+      }
+      .portfolio-description {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 72px;
+        gap: 48px 24px;
+        list-style: none;
+      }
+      .our-team-items {
+        display: flex;
+        flex-direction: column;
+        gap: 72px;
+        align-items: center;
+      }
     .our-team-box {
             background: var(--btn-portfolio-back-primary);
             padding-bottom: 128px;
@@ -24,7 +48,7 @@
     .footer-container {
             display: flex;
             flex-direction: column;
-            gap: 72px;
+            
             align-items: center;
             text-align: center;
             align-content: center;
@@ -44,7 +68,10 @@
          letter-spacing: 0.02em;
         text-align: center;}
 
-
+        .footer-box-text{
+            text-align: left;
+          }
+        
     
         .icon-menu-open{
         outline: 1px solid red;

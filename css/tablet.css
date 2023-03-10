@@ -83,13 +83,7 @@
   color: var(--focus-blue);
 }
 
-  }
-  @media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
-    screen and (min-resolution: 192dpi) and (min-width:768px),
-    screen and (min-resolution: 2dppx) and (min-width:768px) {
-  .section-one {
-    background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/index/peopleoffice.jpg);;
-  }
+ 
   .navigation {
     display: flex;
   }
@@ -125,7 +119,9 @@
 
   .features-description{
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 72px 24px;
   }
   .main-cards{margin: 0;}
 
@@ -135,12 +131,26 @@
   .main-description-text{
     width: 353px;
   }
-  .features-items{
-    display: flex;
-    flex-direction: row;
-    gap: 72px;
+  .our-cargo{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+color: #434455;
   }
-  
+  .button-list{
+    justify-content: center;
+  }
+  .our-name{
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #2E2F42;
+  }
   .custumer-list{
     display: flex;
     flex-wrap: wrap;
@@ -151,13 +161,14 @@
   }
 
   /* footer */
+  
 
   .footer-container {
     display: flex;
     flex-direction: column;
-    gap: 72px;
+    
     align-items: center;
-    text-align: center;
+    text-align: left;
     align-content: center;
 }
 .input-area-footer{
@@ -172,7 +183,10 @@ border-radius: 4px;
 color: var(--background);
 
 }
-
+.all-footer{
+  display: flex;
+    flex-wrap: wrap;
+}
   .button-footer{
   font-size: 16px;
   padding-left: 24px;
@@ -222,4 +236,41 @@ color: var(--background);
    letter-spacing: 0.02em;
   text-align: center;}
 
+}
+@media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
+    screen and (min-resolution: 192dpi) and (min-width:768px),
+    screen and (min-resolution: 2dppx) and (min-width:768px) {
+  .section-one {
+    background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/index/peopleoffice.jpg);;
+  }  
+
+  /* our team */
+  .our-team-items {
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items: center;
+  }
+  .our-team-list{width: 263px;}
+  .main-description-title{
+    
+  }
+
+  .main-description-text{
+
+  }
+
+  /* portfolio */
+  .portfolio-description {
+    
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    margin-top: 64px;
+    row-gap: 72px;
+  }
+  .main-description-cards{
+    width: 356px;
+  }
 }
