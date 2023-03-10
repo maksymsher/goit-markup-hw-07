@@ -83,6 +83,7 @@
         padding: 0;
         border: none;
         stroke: #2E2F42;
+        outline: 1px solid red;
       }
       /* hero */
       

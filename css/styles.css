@@ -471,7 +471,17 @@ p {
   line-height: 40px;
 }
 
+.custumer-list {
+  
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+    margin-top: 72px;
+    gap: 72px 16px;
 
+}
+.description-main{display: flex;}
 
 .custumer-link {
   width: 168px;

@@ -159,7 +159,9 @@ color: #2E2F42;
     margin-top: 72px;
     gap: 72px 24px;
   }
-
+  .menu-open{
+    display: none;
+  }
   /* footer */
   
 
