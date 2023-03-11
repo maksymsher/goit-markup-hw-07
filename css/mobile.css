@@ -58,6 +58,9 @@
         align-items: center;
         justify-content: space-between;
              }
+             .doing-box{
+                display: none;
+             }
 
 
         .input-footer-title {
@@ -83,7 +86,10 @@
         padding: 0;
         border: none;
         stroke: #2E2F42;
-        outline: 1px solid red;
+        
+      }
+      .svg-menu{
+        stroke: #2E2F42;
       }
       /* hero */
       

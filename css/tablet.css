@@ -162,6 +162,10 @@ color: #2E2F42;
   .menu-open{
     display: none;
   }
+  .doing-box{
+    display: none;
+ }
+
   /* footer */
   
 
@@ -254,13 +258,7 @@ color: var(--background);
     align-items: center;
   }
   .our-team-list{width: 263px;}
-  .main-description-title{
-    
-  }
-
-  .main-description-text{
-
-  }
+  
 
   /* portfolio */
   .portfolio-description {

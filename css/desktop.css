@@ -1,13 +1,17 @@
 @media screen and (min-width: 1200px){
-    .container {
-      max-width: 768px;
-      margin-left: auto;
-      margin-right: auto;
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
   }
   .doing-box {
     padding-bottom: 120px;
+    display: flex;
   }
   .menu-open{
+    
     display: none;
   }
   .section-three-title {
@@ -32,18 +36,79 @@
     background-color: var(--btn-portfolio-back-primary);
     border-radius: 4px;
   }
+  .main-description-title {
+    font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #2E2F42;
+
+  }
+  .header-adress-list{
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  
  .features-description{
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
+  
  }
+ .main-description-text {
+  width: 264px;
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #434455;
+}
  .our-team-items{
   flex-direction: row;
   flex-wrap: wrap;
+  
  }
  .custumer-list {
   display: flex;
   gap: 24px;
   margin-top: 72px;
+  max-width: 1158px;
 }
   }
+/* 1200px */
+  /* @media screen and (min-width:1200px){
+    .headline-box {
+        background-image: var(--background-gradient),
+        url(../images/d-sol-1x.jpg);  
+    } 
+  }
+  
+    
+    @media screen and (min-device-pixel-ratio: 2) and (min-width:1200px),
+    screen and (min-resolution: 192dpi) and (min-width:1200px),
+    screen and (min-resolution: 2dppx) and (min-width:1200px) {
+    .headline-box {
+      background-image: var(--background-gradient),
+        url(../images/d-sol-2x.jpg);
+    }
+    } */
+
+
+
+
+    /* 768px */
+    /* @media screen and (min-width:768px){
+      .headline-box {
+          background-image: var(--background-gradient),
+          url(../images/t-sol-1x.jpg);  
+      } 
+    } 
+    @media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
+  screen and (min-resolution: 192dpi) and (min-width:768px),
+  screen and (min-resolution: 2dppx) and (min-width:768px) {
+  .headline-box {
+    background-image: var(--background-gradient),
+      url(../images/t-sol-2x.jpg);
+  }
+  } */

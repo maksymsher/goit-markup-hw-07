@@ -44,16 +44,98 @@
       
       </address>
 
-      <button class="menu-open" type="button"><svg width="32px" height="22px">
-            <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
-        </svg></button>
+
       
+<!-- MOBILE MENU -->
+
+
+        <!-- button -->
+      <button class="menu-open" type="button" data-menu-open><svg width="32px" height="22px" class="svg-menu">
+            <use href="./images/icons.svg#icon-burguer"></use>
+        </svg></button>
+
+
+        <!-- mobile-menu-page -->
+   <div class="menu-container is-open" data-menu>
+    <div class="container mobile-container-sec">
+    <button type="button" class="mobile-menu-close" data-menu-close>
+
+      <svg class="mobile-close-svg" width="8" heigth="8">
+      <use href="./images/icons.svg#icon-close-black"></use>
+      </svg>
+
+    </button>
+
     
+<div class="mobile-ajust container">
+    <nav class="nav-mobile">
+    <ul class="mobile-sections">
+      <li class="mobile-section-text"><a class="mobile-text" href="./index.html">Studio</a></li>
+      <li class="mobile-section-text"><a class="mobile-text" href="./portfolio.html">Portfolio</a></li>
+      <li class="mobile-section-text"><a class="mobile-text" href="./https//:">Contacts</a></li>
+    </ul>
+  </nav>
+
+ 
+
+    <address class="mobile-items">
+          <ul>
+          <li class="mobile-number-item"><a class="mobile-number" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+            <li class="mobile-mail-item"><a class="mobile-mail" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          </ul>
+  
+
+          <ul class="mobile-social-boxes">
+
+
+          <li class="mobile-social-items"><a href="https://" class="mobile-social-link">
+          <svg class="mobile-social-svg" width="24" height="24">
+          <use href="./images/icons.svg#icon-instagram"></use>
+        </svg>
+
+
+      </a></li>
+
+      <li class="team-social-items"><a href="https://" class="team-social-link">
+        <svg class="team-social-svg" width="24" height="24">
+          <use href="./images/icons.svg#icon-twitter"></use>
+        </svg>
+
+
+      </a>
+      
+      
+      </li>
+      <li class="team-social-items"><a href="https://" class="team-social-link">
+        <svg class="team-social-svg" width="24" height="24">
+          <use href="./images/icons.svg#icon-facebook"></use>
+        </svg>
+
+
+      </a>
+      
+      </li>
+      <li class="team-social-items"><a href="https://" class="team-social-link">
+        <svg class="team-social-svg"  width="24" height="24">
+          <use href="./images/icons.svg#icon-linkedin"></use>
+        </svg>
+
+
+      </a>
+      
+      </li>           
+      </ul>
+    </address>
+
+  </div>
+      
+  </div>
+</div>
     </div>
     </header>
 
 
-    <!------------------------------------------------------------------------------------------------------------------------------------------ MAIN -->
+    <!-- MAIN -->
             <!-- section 1 -->
     <main>
       
@@ -227,9 +309,9 @@
 
 
               </a>
-              
-              </li>           
-            </ul>
+            </ul>  
+          </li>           
+            
           
           
           </li>
@@ -478,7 +560,7 @@
       
     </main>
   
-    <!------------------------------------------------------------------------------------------------------------------------------------ Footer -->
+    <!-- Footer -->
     <footer class="footer-box">
       <div class="container all-footer">
 
@@ -544,12 +626,18 @@
 <!-- MODAL -->
    <div class="backdrop is-hidden" data-modal>
     <div class="modal">
-      <div class="test">
+      
+
       <button type="button" class="btn-modal" data-modal-close><svg class="modal-svg" width="8" height="8">
         <use href="./images/icons.svg#icon-close-black"></use>
       </svg>
     </button>
-  </div>
+  
+  
+  
+ 
+
+
     <p class="modal-title">Leave your contacts and we will call you back</p>
 
 <form class="modal-form">
@@ -610,6 +698,9 @@
 
 
    </div>
+
+   
+
 
    <script src="./js/modal.js"></script>
    <script src="./js/mobile-menu.js"></script>
