@@ -193,7 +193,7 @@ color: #2E2F42;
   .footer-container {
     display: flex;
     flex-direction: column;
-    
+    justify-content: left;
     align-items: center;
     text-align: left;
     align-content: center;
@@ -212,7 +212,10 @@ color: var(--background);
 }
 .all-footer{
   display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 108px;
+
 }
   .button-footer{
   font-size: 16px;
@@ -248,10 +251,15 @@ color: var(--background);
 
 
 }
+
+.footer-box .footer-logo{
+  justify-content: left;
+  
+}
 .input-footer{
 
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: 72px;
     
 }
