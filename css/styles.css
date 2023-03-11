@@ -162,6 +162,7 @@ p {
     width: 100%;
     height: 100%;
     background-color: #ffffff;
+    position: fixed;
 }
 .mobile-container-sec{
   padding: 40px;
@@ -235,10 +236,13 @@ p {
 font-size: 36px;
 line-height: 40px;
 text-transform: capitalize;
-color: #4D5AE5;
+color: #434455;
 text-decoration: none;
 font-style: normal;
 
+}
+.mobile-number:hover{
+  color: #4D5AE5;
 }
 
 .mobile-mail{
@@ -251,6 +255,9 @@ color: #434455;
 text-decoration: none;
 
 }
+.mobile-mail:hover{
+  color: #4D5AE5;
+}
 .mobile-mail-item{
   margin-top: 40px;
 }
@@ -258,7 +265,18 @@ text-decoration: none;
 
 /* --MAIN */
 
-
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .section-one {
+    background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg-img/mobile-2x.jpg)
+  }
+}
 .section-one {
   max-width: 1440px;
   padding-top: 188px;
@@ -270,7 +288,7 @@ text-decoration: none;
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/index/peopleoffice.jpg);
+    url(../images/bg-img/mobilebg.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -999,7 +1017,8 @@ section {
 /* mobile-svg-social */
 .mobile-social-boxes {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+    align-items: center;
   gap: 56px;
 
   margin-bottom: 32px;
