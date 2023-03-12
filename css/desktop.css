@@ -104,6 +104,27 @@ color: #434455;
   
   flex-direction: row;
 }
+
+.footer-box{
+  background-color: var(--background-black);
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.all-footer{
+  display: flex;
+    gap: 80px;
+}
+.testing{
+  display: flex;
+  gap: 120px;
+}
+
+.footer-form{
+  display: flex;
+  gap: 24px;
+  flex-direction: row;
+}
   }
 
 

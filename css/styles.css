@@ -263,18 +263,7 @@ text-decoration: none;
 }
 /* --MAIN */
 
-@media (min-device-pixel-ratio: 2) and (max-width: 767px),
-  (min-resolution: 192dpi) and (max-width: 767px),
-  (min-resolution: 2dppx) and (max-width: 767px) {
-  .section-one {
-    background-image: linear-gradient(
-      to right,
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url(../images/bg-img/mobile-2x.jpg)
-  }
-}
+
 .section-one {
   max-width: 1440px;
   padding-top: 188px;
@@ -295,6 +284,18 @@ text-decoration: none;
   background-color: var(--background-black);
 }
 
+@media (min-device-pixel-ratio: 2) and (max-width: 767px),
+  (min-resolution: 192dpi) and (max-width: 767px),
+  (min-resolution: 2dppx) and (max-width: 767px) {
+  .section-one {
+    background-image: linear-gradient(
+      to right,
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/bg-img/mobile-2x.jpg)
+  }
+}
 
 .hero-section {
   justify-content: center;
