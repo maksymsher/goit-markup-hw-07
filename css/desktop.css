@@ -59,6 +59,7 @@ margin-right: auto;
     height: 112px;
     background-color: var(--btn-portfolio-back-primary);
     border-radius: 4px;
+    margin-bottom: 8px;
   }
   .main-description-title {
     font-weight: 500;
@@ -110,7 +111,9 @@ color: #434455;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-
+.input-footer{
+  margin-top: 0;
+}
 .all-footer{
   display: flex;
     gap: 80px;

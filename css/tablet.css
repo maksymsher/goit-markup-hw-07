@@ -43,7 +43,9 @@ background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47,
 .testing{
   display: flex;
 }
-
+.main-cards{
+  width: 356px;
+}
 .header-adress-list {
   align-items: center;
   display: flex;
@@ -201,7 +203,9 @@ color: #2E2F42;
 
   /* footer */
   
-
+.footer-form{
+  gap: 24px;
+}
   .footer-container {
     display: flex;
     flex-direction: column;
@@ -215,7 +219,8 @@ color: #2E2F42;
   background-color: transparent;
   border: 1px solid #FFFFFF4D;
   height: 40px;
-width: 100%;
+
+width: 264px;
 box-shadow: 0px 4px 4px 0px #00000026;
 padding-left: 16px;
 border-radius: 4px;
@@ -243,7 +248,7 @@ color: var(--background);
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 16px;
+ 
   padding: 0;
   color: var(--background);
   background: var(--primary-brand);
@@ -255,7 +260,7 @@ color: var(--background);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .input-footer-title{
-  text-align: center;
+  text-align: left;
 
 font-weight: 500;
 line-height: 1.5;
@@ -271,7 +276,7 @@ color: var(--background);
 .input-footer{
 
   display: flex;
-  flex-direction: row;
+  width: 453px;
   margin-top: 72px;
     
 }
@@ -281,16 +286,29 @@ color: var(--background);
    line-height: 1.5;
    color: #ffffff;
    letter-spacing: 0.02em;
-  text-align: center;}
+  
+}
+.main-cards {
+  width: 264px;
+}
 
-
- 
-
+.testing{
+  gap: 24px;
+}
+ .social-footer{
+  margin-top: 0;
+  margin-bottom: 0;
+ }
+ .title-footer-social{
+  text-align: left;
+ }
 .footer-form {
     display: flex;
     flex-direction: row;
 }
-
+.fooer-logo{
+  text-align: left;
+}
   /* our team */
   .our-team-items {
     display: flex;
