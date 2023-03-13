@@ -116,9 +116,7 @@ color: #434455;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-.input-footer{
-  margin-top: 0;
-}
+
 .all-footer{
   display: flex;
     gap: 80px;
@@ -132,6 +130,14 @@ color: #434455;
   display: flex;
   gap: 24px;
   flex-direction: row;
+}
+
+.input-area-footer{
+  
+}
+.input-footer{
+  margin-top: 0;
+  width: 0;
 }
   }
 
