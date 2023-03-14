@@ -2,7 +2,7 @@
 
 
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
     .container {
       max-width: 768px;
       margin-left: auto;
@@ -21,6 +21,16 @@ screen and (min-resolution: 192dpi),
 screen and (min-resolution: 2dppx){
 .section-one {
 background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(../images/bg-img/tablet-bg.jpg);;
+max-width: 1440px;
+      padding-top: 112px;
+      padding-bottom: 108px;
+      height: 436px;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: var(--background-black);
 }  
 
 
@@ -37,8 +47,10 @@ background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47,
       rgba(46, 47, 66, 0.7)
     ),
     url(../images/bg-img/tablet-2x.jpg)
+    
   }
 }
+
 
 .testing{
   display: flex;

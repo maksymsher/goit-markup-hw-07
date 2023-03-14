@@ -1,5 +1,16 @@
 @media screen and (min-width:1200px){
   .section-one {
+    max-width: 1440px;
+      padding-top: 188px;
+      padding-bottom: 188px;
+      height: 600px;
+      box-sizing: border-box;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: var(--background-black);
     background-image: linear-gradient(
       to right,
       rgba(46, 47, 66, 0.7),
@@ -119,11 +130,11 @@ color: #434455;
 
 .all-footer{
   display: flex;
-    gap: 80px;
+    
 }
 .testing{
   display: flex;
-  gap: 120px;
+  gap: 0px;
 }
 
 .footer-form{
@@ -132,12 +143,12 @@ color: #434455;
   flex-direction: row;
 }
 
-.input-area-footer{
-  
+.social-footer{
+  margin-left: 120px;
 }
 .input-footer{
   margin-top: 0;
-  width: 0;
+  margin-left: auto;
 }
   }
 
